@@ -1,0 +1,78 @@
+/*TELA GDC*/
+
+body {
+    background-color: #000008; /*Cor de fundo do site inteiro*/
+    
+  }
+
+  h1{ /*titulo*/
+            
+    font-family: 'Montserrat', sans-serif; /*fonte*/
+    color: #ffffff; /*Cor da fonte*/
+    text-align: center; /*Alinhando texto*/
+  }
+
+  h2{
+    font-family: 'Montserrat', sans-serif; /*fonte*/
+    color: #ffffff; /*Cor da fonte*/
+    text-align: center; /*Alinhando texto*/
+  }
+
+  .I {
+    font-family: 'Montserrat', sans-serif; /*fonte*/
+    color: #ffffff; /*Cor da fonte*/
+    text-align: center; /*Alinhando texto*/
+  }
+
+
+  table { /*TABELA DO GDC*/
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    background-color: #ddd;
+  }
+  
+  th {
+    background-color: #ddd;
+  }
+
+
+
+  /*FONTE*/
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+                
+  body {
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    /*LISTA DE MENU*/
+  
+  .menu { 
+    list-style: none;
+    margin: 0;
+    padding: 10px 10px;
+    display: flex; /* Exibe os itens do menu em linha */
+    border: 0px solid #ccc; /*borda na lista*/
+    background-color: #3c3c3f; /*cor do fundo da lista*/
+    text-align: center; /*Alinhando texto*/
+}
+  
+  .menu li a {
+    display: block; /*para torná-los elementos de bloco*/
+    padding: 10px 10px; /*para adicionar espaço ao redor do texto do link*/
+    text-decoration: none; /*para remover a sublinhado padrão nos links*/
+    color: #ffffff; 
+    font-size: 15px; /*tamanho da fonte*/
+    text-align: center; /*Alinhando texto*/
+  }
+  
+  .menu li a:hover { /*para definir um estilo diferente quando o cursor do mouse passa sobre os links.*/
+    background-color: #e7e8f6;
+    color: #747070;
+  }
